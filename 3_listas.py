@@ -119,6 +119,21 @@ enteros = [int(valor) for valor in cadena.split()]
 # se puede poner una condicion
 enteros = [int(valor) for valor in cadena.split() if valor != '3']
 
+# algunas operaciones matematicas sobre listas
+numeros = [1, 2, 3]
+suma = sum(numeros) # 6
+maximo = max(numeros)
+minimo = min(numeros)
+
+
+# lines de comandos sys.arg
+# python main.py[0] parametro[1] parametro[2] ...
+import sys
+primer_parametro = sys.arg[1]
+segundo_parametro = sys.arg[2]
+
+
+
 
 
 
