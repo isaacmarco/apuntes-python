@@ -8,6 +8,18 @@ list('mi cadena')
 # conversion de rango de numeros a lista
 list(range(10))
 
+# generando listas de diferentes maneras
+lista = [3] * 4 # [3, 3, 3, 3]
+lista = ['hola'] * 3 # ['hola', 'hola', 'hola']
+# lista por comprensión simple
+lista = [i for i in range(10)]
+# lista por comprensión operando sobre el número generado
+lista = [i * 2 for i in range(10)]
+# a partir de otra lista
+lista_aux = [i for i in range(10)]
+lista = [i * 2 for i in lista_aux]
+
+
 # acceso a elementos
 elemento = lista[0]
 ultimo = lista[-1] # ultimo elemento
